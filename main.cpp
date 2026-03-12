@@ -33,7 +33,7 @@ int main()
 
 	for (int i = 0; i < 6; i++)
 	{
-		cout << i+1 << "¹øÂ° °ø : " << Actor_BP_Pocket[i] << endl;
+		cout << i+1 << "Ball : " << Actor_BP_Pocket[i] << endl;
 	}
 
 	return 0;
