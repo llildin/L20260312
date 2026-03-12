@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <time.h>
 using namespace std;
@@ -30,7 +31,7 @@ int main()
 	int* Actor_BP_Pocket = new int[Size];
 
 	ChangeBall(Actor_BP_Pocket, Size);
-
+	
 	for (int i = 0; i < 6; i++)
 	{
 		cout << i+1 << "Ball : " << Actor_BP_Pocket[i] << endl;
@@ -41,3 +42,4 @@ int main()
 
 	return 0;
 }
+*/
