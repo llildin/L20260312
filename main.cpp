@@ -36,5 +36,8 @@ int main()
 		cout << i+1 << "Ball : " << Actor_BP_Pocket[i] << endl;
 	}
 
+	delete[] Actor_BP_Pocket;
+	Actor_BP_Pocket = nullptr;
+
 	return 0;
 }
