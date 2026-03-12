@@ -2,12 +2,6 @@
 #include <time.h>
 using namespace std;
 
-/*
-* 주머니(Actor_BP_Pocket)에 45개의 공(Actor_BP_BALL)
-* 그 중 6개를 뽑는 프로그램
-*/
-
-// 공 섞기
 void ChangeBall(int* BP_Pocket, int Size)
 {
 	srand((unsigned int)time(NULL));
